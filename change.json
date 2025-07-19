@@ -1,0 +1,16 @@
+Patch('Expense Tracker',Defaults('Expense Tracker'), {'Expense ID':ExpenseCard.Text,'Employee ID': Value(DataCardValue16.Text),'Employee Name':DataCard2.Text, Designation: DataCardValue13.Selected,Department:DataCardValue8.Selected, 'Reporting Manager':DataCardValue10.Text, Location:DataCardValue19.Selected,Contact:DataCardValue12.Text, Email:DataCardValue14.Text, Band:Dropdown4.SelectedText.Value, 'Invoice Number':DataCardValue5.Text, 'Employ type': DataCardValue15.Selected, 'Expense Type':DataCardValue3.Selected, Amount:Value(DataCardValue4.Text), 'Invoice Date':DataCardValue6.SelectedDate, 'Business Justification':DataCardValue7.Text, 'Start Date':DataCardValue20.SelectedDate, 'End date':DataCardValue17.SelectedDate});
+
+EditForm('Expense Create Form');
+Set(Updatemode:true);
+Navigate('Create Expense Screen',ScreenTransition.Cover {SelectedItem.Gallery2.Selected})
+
+
+1.  NppExport v0.2.8 (32-bit x86 only)
+2.  Plugin Manager 1.3.5 (32-bit x86 only)
+3.  Converter 4.2
+4.  Mime Tool 2.1
+
+
+Updater (Installer only):
+
+* WinGup v4.1
